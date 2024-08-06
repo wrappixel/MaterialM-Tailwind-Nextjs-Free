@@ -1,0 +1,23 @@
+.mobile-header-menu {
+    height: 0;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+.mobile-header-menu.active {
+    min-height: 70px;
+    overflow: visible;
+}
+
+
+.page-wrapper {
+    margin-left: calc(0px + 260px);
+    transition: .2s ease-in;
+}
+
+
+
+@media screen and (max-width:1280px) {
+    .page-wrapper{
+        margin-left: 0;
+    }
+}

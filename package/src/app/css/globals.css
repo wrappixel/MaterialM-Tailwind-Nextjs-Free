@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './layouts/sidebar.css';
+@import './layouts/header.css';
+@import './theme/default-colors.css';
+@import './override/reboot.css';
+
+
+@layer components {
+  .container {
+    @apply max-w-[1200px];
+  }
+
+  body {
+    @apply text-sm overflow-x-hidden;
+  }
+
+  .dropdown {
+    @apply shadow-md bg-white relative rounded-sm;
+  }
+
+  .card-title {
+    @apply text-lg font-semibold text-dark
+  }
+
+  .card-subtitle {
+    @apply text-sm font-medium text-darklink
+  }
+
+  body {
+    @apply text-darklink;
+  }
+
+  /*heading text color*/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-dark font-semibold;
+  }
+
+  .border-ld {
+    @apply border-border;
+  }
+
+  .form-control input {
+    @apply border border-border bg-transparent w-full text-sm;
+  }
+
+  .form-control-rounded input {
+    @apply rounded-full border border-border bg-transparent w-full text-sm;
+  }
+
+  .form-control-rounded input:focus {
+    @apply border-primary outline-none shadow-none ring-offset-0 ring-transparent;
+  }
+
+
+  .form-control input:focus {
+    @apply border-primary outline-none shadow-none ring-offset-0 ring-transparent;
+  }
+
+  .form-control-input {
+    @apply rounded-md border border-border bg-transparent w-full text-sm;
+  }
+
+  .form-control-input:focus {
+    @apply border-primary outline-none shadow-none ring-offset-0 ring-transparent;
+  }
+
+  .form-rounded-md input {
+    @apply rounded-md border border-border bg-transparent w-full text-sm;
+  }
+
+  .form-rounded-md input:focus {
+    @apply border-primary outline-none shadow-none ring-offset-0 ring-transparent;
+  }
+
+  .form-rounded input {
+    @apply rounded-full
+  }
+
+  .elipse {
+    @apply w-[18px] h-[10px]
+  }
+
+  input::placeholder {
+    @apply text-darklink
+  }
+
+  .select-option select {
+    @apply bg-muted border-0 text-darklink d py-2 ps-4 pe-9 w-auto focus:border-0 focus:ring-0 font-medium;
+  }
+
+  .select-md select {
+    @apply border-ld bg-transparent w-full text-sm rounded-md focus:border-primary focus:ring-0;
+  }
+
+  .select-rounded select {
+    @apply border-ld bg-transparent w-full text-sm rounded-full focus:border-primary focus:ring-0;
+  }
+
+  .checkbox {
+    @apply h-[18px] w-[18px] border border-border bg-transparent focus:ring-0 focus:ring-offset-0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "materialm-nextjs-free",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@iconify/react": "4.1.1",
+    "@tabler/icons-react": "3.5.0",
+    "flowbite": "2.3.0",
+    "flowbite-react": "0.10.1",
+    "lodash": "4.17.21",
+    "moment": "2.29.4",
+    "next": "14.2.4",
+    "react": "18",
+    "react-apexcharts": "1.4.1",
+    "react-dom": "18",
+    "simplebar-react": "3.2.5",
+    "sharp": "0.32.6"
+  },
+  "devDependencies": {
+    "@types/node": "20",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "@types/react-is": "18.3.0",
+    "postcss": "8",
+    "tailwindcss": "3.4.4",
+    "typescript": "5"
+  }
+}
