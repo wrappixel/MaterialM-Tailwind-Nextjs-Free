@@ -149,7 +149,7 @@ MaterialM Tailwind NextJS Dashboard
   <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/08/materialm-nextjs-admin-dashboard.jpg" alt="">
 </a>
 <p>
-  Checkout our premium version of Spike NextJs Dashboard Template for lots more features and ready to use page templates.<br>
+  Checkout our premium version of MaterialM Nextjs Dashboard Template for lots more features and ready to use page templates.<br>
   <a href="https://material-m-nextjs-main.vercel.app/">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=33">Download</a>
 </p>
 
