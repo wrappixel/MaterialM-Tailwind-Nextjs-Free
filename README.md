@@ -1,6 +1,6 @@
 
 # <a href="https://materialm-tailwind-nextjs-free.vercel.app/">MaterialM-Tailwind-Nextjs-Free</a>
-Spike NextJS Admin Dashboard
+MaterialM Tailwind NextJS Dashboard
 
 <!-- Main image of Template -->
 <a target="_blank" href="https://www.wrappixel.com/templates/materialm-free-nextjs-admin-template/">
