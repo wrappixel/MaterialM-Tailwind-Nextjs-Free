@@ -29,21 +29,6 @@ const customTheme = {
       transparent:
         "bg-transparent hover:bg-lightprimary dark:hover:bg-darkprimary hover:text-primary p-0",
     },
-    outline: {
-      color: {
-        primary: "border bg-transparent text-primary",
-        secondary: "border bg-transparent text-secondary",
-        success: "border bg-transparent text-success",
-        info: "border bg-transparent text-info",
-        warning: "border bg-transparent text-warning",
-        error: "border bg-transparent text-error",
-        white: "border bg-transparent text-white",
-        dark: "border bg-transparent text-dark",
-        default: "border-1",
-      },
-      off: "",
-      on: "transition-all duration-75 ease-in group-enabled:group-hover:bg-opacity-0 group-enabled:group-hover:text-inherit",
-    },
     inner: {
       base: "flex items-center gap-2 transition-all duration-150 justify-center",
     },
@@ -156,37 +141,6 @@ const customTheme = {
       xl: "h-6",
     },
   },
-
-  
-
-  alert: {
-    base: "flex flex-col gap-2 p-4 text-sm",
-    borderAccent: "border-t-4",
-    color: {
-      primary: "bg-primary text-white border-yellow-500",
-      secondary: "bg-secondary text-white border-yellow-500",
-      success: "bg-success text-white border-yellow-500",
-      info: "bg-info text-white border-yellow-500",
-      warning: "bg-warning text-dark border-yellow-500 dark:text-yellow-800",
-      error: "bg-error text-white border-yellow-500",
-      dark: "bg-dark text-white dark:bg-dark border-yellow-500",
-      lightsuccess:
-        "bg-lightsuccess dark:bg-lightsuccess text-success border-success",
-      lightprimary:
-        "bg-lightprimary dark:bg-lightprimary text-primary border-primary",
-      lightwarning:
-        "bg-lightwarning dark:bg-lightwarning text-warning border-yellow-500",
-      lightinfo: "bg-lightinfo dark:bg-lightinfo text-info border-info",
-      lightsecondary:
-        "bg-lightsecondary dark:bg-lightsecondary text-secondary border-secondary",
-      lighterror: "bg-lighterror dark:bg-lighterror text-error border-error",
-    },
-    icon: "mr-3 inline h-5 w-5 flex-shrink-0",
-    rounded: "rounded-lg",
-    wrapper: "flex items-center",
-  },
-
-
   sidebar: {
     root: {
       inner: "bg-white dark:bg-darkgray rounded-none",

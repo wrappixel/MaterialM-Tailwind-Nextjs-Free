@@ -49,7 +49,7 @@ const Profile = () => {
           My Task
         </Dropdown.Item>
         <div className="p-3 pt-0">
-        <Button as={Link}  size={'sm'}  href="/auth/login" className="mt-2 border border-primary text-primary hover:bg-lightprimary outline-none">Logout</Button>
+        <Button as={Link}  size={'sm'}  href="/auth/login" className="mt-2 border border-primary text-primary bg-transparent hover:bg-lightprimary outline-none focus:outline-none">Logout</Button>
         </div>
       </Dropdown>
     </div>

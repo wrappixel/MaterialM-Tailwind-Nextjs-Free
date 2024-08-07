@@ -41,6 +41,11 @@ const config: Config = {
       },
 
       colors: {
+        cyan: {
+          "500": "var(--color-primary)",
+          "600": "var(--color-primary)",
+          "700": "var(--color-primary)",
+        },
         primary: "var(--color-primary)",
         secondary: "var(--color-secondary)",
         info: "var(--color-info)",
@@ -60,7 +65,6 @@ const config: Config = {
         dark: "var(--color-dark)",
         link: "var(--color-link)",
         darklink: "var(--color-darklink)",
-        
       },
     },
   },

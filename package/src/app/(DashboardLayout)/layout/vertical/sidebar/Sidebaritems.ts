@@ -44,13 +44,13 @@ const SidebarContent: MenuItem[] = [
       },
       {
         name: "Table",
-        icon: "solar:airbuds-case-charge-outline",
+        icon: "solar:bedside-table-3-linear",
         id: uniqueId(),
         url: "/ui/table",
       },
       {
         name: "Form",
-        icon: "solar:airbuds-case-charge-outline",
+        icon: "solar:password-minimalistic-outline",
         id: uniqueId(),
         url: "/ui/form",
       },
