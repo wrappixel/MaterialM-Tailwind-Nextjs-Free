@@ -7,6 +7,7 @@ import FullLogo from "../../shared/logo/FullLogo";
 import { Drawer } from "flowbite-react";
 import MobileSidebar from "../sidebar/MobileSidebar";
 import Link from "next/link";
+import Notification from "./notification";
 
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -53,10 +54,7 @@ const Header = () => {
               >
                 <Icon icon="solar:hamburger-menu-line-duotone" height={21} />
               </span>
-              <span className="h-10 w-10 hover:text-primary hover:bg-lightprimary rounded-full flex justify-center items-center cursor-pointer relative">
-                <Icon icon="solar:bell-linear" height={20} />
-                <Badge className="h-2 w-2 rounded-full absolute end-2 top-1 bg-primary p-0"></Badge>
-              </span>
+              <Notification/>
             </div>
 
             <div className="flex gap-4 items-center">

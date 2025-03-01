@@ -23,95 +23,6 @@ export interface MenuItem {
 
 import { uniqueId } from "lodash";
 
-// const SidebarContent: MenuItem[] = [
-//   {
-// isPro: true,    
-// heading: "Dashboards",
-//     children: [
-//       {
-//         name: "Dashboard",
-//         icon: "solar:widget-add-line-duotone",
-//         id: uniqueId(),
-//         url: "https://material-m-nextjs-main.vercel.app/",
-//   isPro: true      
-// },
-//     ],
-//   },
-//   {
-// isPro: true,    
-// heading: "Utilities",
-//     children: [
-//       {
-//         name: "Typography",
-//         icon: "solar:text-circle-outline",
-//         id: uniqueId(),
-//         url: "https://material-m-nextjs-main.vercel.app/ui/typography",
-//   isPro: true      
-// },
-//       {
-//         name: "Table",
-//         icon: "solar:bedside-table-3-linear",
-//         id: uniqueId(),
-//         url: "https://material-m-nextjs-main.vercel.app/ui/table",
-//   isPro: true      
-// },
-//       {
-//         name: "Form",
-//         icon: "solar:password-minimalistic-outline",
-//         id: uniqueId(),
-//         url: "https://material-m-nextjs-main.vercel.app/ui/form",
-//   isPro: true      
-// },
-//       {
-//         name: "Shadow",
-//         icon: "solar:airbuds-case-charge-outline",
-//         id: uniqueId(),
-//         url: "https://material-m-nextjs-main.vercel.app/ui/shadow",
-//   isPro: true      
-// },
-//     ],
-//   },
-//   {
-// isPro: true,    
-// heading: "Auth",
-//     children: [
-//       {
-//         name: "Login",
-//         icon: "solar:login-2-linear",
-//         id: uniqueId(),
-//         url: "https://material-m-nextjs-main.vercel.app/auth/login",
-//   isPro: true      
-// },
-//       {
-//         name: "Register",
-//         icon: "solar:shield-user-outline",
-//         id: uniqueId(),
-//         url: "https://material-m-nextjs-main.vercel.app/auth/register",
-//   isPro: true      
-// },
-//     ],
-//   },
-//   {
-// isPro: true,    
-// heading: "Extra",
-//     children: [
-//       {
-//         name: "Icons",
-//         icon: "solar:smile-circle-outline",
-//         id: uniqueId(),
-//         url: "https://material-m-nextjs-main.vercel.app/icons/solar",
-//   isPro: true      
-// },
-//       {
-//         name: "Sample Page",
-//         icon: "solar:notes-minimalistic-outline",
-//         id: uniqueId(),
-//         url: "https://material-m-nextjs-main.vercel.app/sample-page",
-//   isPro: true      
-// },
-//     ],
-//   },
-// ];
 
 const SidebarContent: MenuItem[] = [
   {
@@ -198,6 +109,40 @@ const SidebarContent: MenuItem[] = [
       },
     ],
   },
+    {
+    heading: "Utilities",
+    isPro: false,
+    children: [
+      {
+        name: "Typography",
+        icon: "solar:text-circle-outline",
+        id: uniqueId(),
+        url: "https://material-m-nextjs-main.vercel.app/ui/typography",
+        isPro: false      
+},
+      {
+        name: "Table",
+        icon: "solar:bedside-table-3-linear",
+        id: uniqueId(),
+        url: "https://material-m-nextjs-main.vercel.app/ui/table",
+        isPro: false      
+},
+      {
+        name: "Form",
+        icon: "solar:password-minimalistic-outline",
+        id: uniqueId(),
+        url: "https://material-m-nextjs-main.vercel.app/ui/form",
+        isPro: false      
+},
+      {
+        name: "Shadow",
+        icon: "solar:airbuds-case-charge-outline",
+        id: uniqueId(),
+        url: "https://material-m-nextjs-main.vercel.app/ui/shadow",
+        isPro: false      
+},
+    ],
+  },
   {
     isPro: true,
     heading: "Apps",
@@ -274,13 +219,6 @@ const SidebarContent: MenuItem[] = [
         ],
       },
       {
-        id: uniqueId(),
-        name: "Chats",
-        icon: "solar:chat-round-line-line-duotone",
-        url: "https://material-m-nextjs-main.vercel.app/apps/chats",
-        isPro: true
-      },
-      {
         name: "User Profile",
         id: uniqueId(),
         isPro: true,
@@ -345,7 +283,13 @@ const SidebarContent: MenuItem[] = [
           },
         ],
       },
-
+      {
+        id: uniqueId(),
+        name: "Chats",
+        icon: "solar:chat-round-line-line-duotone",
+        url: "https://material-m-nextjs-main.vercel.app/apps/chats",
+        isPro: true
+      },
       {
         id: uniqueId(),
         name: "Notes",
@@ -388,6 +332,12 @@ const SidebarContent: MenuItem[] = [
     heading: "Pages",
     children: [
       {
+        name: "Pages",
+        id: uniqueId(),
+        isPro: true,
+        icon: "solar:cloud-file-linear",
+        children:[
+      {
         name: "Account Setting",
         icon: "solar:settings-minimalistic-line-duotone",
         id: uniqueId(),
@@ -422,6 +372,8 @@ const SidebarContent: MenuItem[] = [
         url: "https://material-m-nextjs-main.vercel.app/theme-pages/casl",
         isPro: true
       },
+    ]
+  },
     ],
   },
   {
@@ -649,34 +601,6 @@ const SidebarContent: MenuItem[] = [
           },
         ],
       },
-        {
-          name: "Typography",
-          icon: "solar:text-circle-outline",
-          id: uniqueId(),
-          url: "/ui/typography",
-          isPro: false
-        },
-        {
-          name: "Table",
-          icon: "solar:bedside-table-3-linear",
-          id: uniqueId(),
-          url: "/ui/table",
-          isPro: false
-        },
-        {
-          name: "Form",
-          icon: "solar:password-minimalistic-outline",
-          id: uniqueId(),
-          url: "/ui/form",
-          isPro: false
-        },
-        {
-          name: "Shadow",
-          icon: "solar:airbuds-case-charge-outline",
-          id: uniqueId(),
-          url: "/ui/shadow",
-          isPro: false
-        },
     ],
   },
 
@@ -838,7 +762,14 @@ const SidebarContent: MenuItem[] = [
   {
     isPro: true,
     heading: "React Tables",
+
     children: [
+      {
+        name: "React Tables",
+        id: uniqueId(),
+        isPro: true,
+        icon: "solar:round-transfer-vertical-broken",
+        children:[
       {
         id: uniqueId(),
         name: "Basic",
@@ -923,7 +854,8 @@ const SidebarContent: MenuItem[] = [
         url: "https://material-m-nextjs-main.vercel.app/react-tables/expanding",
         isPro: true
       },
-
+    ]
+  },
     ],
   },
   {
@@ -1053,6 +985,7 @@ const SidebarContent: MenuItem[] = [
     isPro: true,
     heading: "Auth",
     children: [
+
       {
         name: "Login",
         icon: "solar:login-2-linear",
@@ -1067,6 +1000,12 @@ const SidebarContent: MenuItem[] = [
         url: "/auth/register",
         isPro: false
       },
+      {
+        name: "Auth Pages",
+        id: uniqueId(),
+        isPro: true,
+        icon: "solar:user-plus-rounded-line-duotone",
+        children:[
       {
         name: "Error",
         icon: "solar:bug-minimalistic-line-duotone",
@@ -1137,6 +1076,8 @@ const SidebarContent: MenuItem[] = [
         url: "https://material-m-nextjs-main.vercel.app/auth/maintenance",
         isPro: true
       },
+    ]
+  },
     ],
   },
   {

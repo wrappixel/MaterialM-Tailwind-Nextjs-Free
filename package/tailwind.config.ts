@@ -47,6 +47,8 @@ const config: Config = {
           "700": "var(--color-primary)",
         },
         primary: "var(--color-primary)",
+        secondaryemphasis: "var(--color-secondary-emphasis)",
+        primaryemphasis: "var(--color-primary-emphasis)",
         secondary: "var(--color-secondary)",
         info: "var(--color-info)",
         success: "var(--color-success)",

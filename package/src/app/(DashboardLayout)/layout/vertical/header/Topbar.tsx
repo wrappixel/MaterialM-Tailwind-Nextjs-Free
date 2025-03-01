@@ -76,7 +76,7 @@ const Topbar = () => {
                     <Icon icon="tabler:shopping-cart" className="text-lg" />
                      <p className="text-[15px]">Buy Now</p>
                 </div>
-            } color="primary" size="sm" >
+            } color="ghostprimary" size="sm" >
               {
                 dropdownItems.map((item) => {
                     return (

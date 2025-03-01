@@ -34,7 +34,7 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ item }: any) => {
               aria-hidden
               className={`${twMerge(theme.label.icon.open[open ? "on" : "off"])} drop-icon order-3 text-base`}
             />
-            {item.isPro? <span className="py-1 px-2.5 text-[10px] bg-secondary text-white rounded-full order-0">Pro</span> :null}
+            {item.isPro? <span className="py-1 px-2.5 text-[10px] bg-lightsecondary text-secondary rounded-full order-0">Pro</span> :null}
             </div>
       
           );

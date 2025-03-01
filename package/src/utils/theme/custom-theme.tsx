@@ -4,7 +4,8 @@ const customTheme = {
     fullSized: "w-full",
     color: {
       primary: "bg-primary text-white hover:bg-primaryemphasis",
-      secondary: "bg-secondary text-white ",
+      ghostprimary: "bg-primary text-white hover:bg-transparent hover:text-primary hover:border-primary border border-transparent",
+      secondary: "bg-secondary text-white hover:bg-secondaryemphasis",
       error: "bg-error text-white ",
       warning: "bg-warning text-white ",
       info: "bg-info text-white hover:bg-primaryemphasis",
@@ -23,7 +24,7 @@ const customTheme = {
       lightwarning:
         "bg-lightwarning dark:bg-darkwarning text-warning hover:bg-warning dark:hover:bg-warning hover:text-white",
       outlineprimary:
-        "border border-primary bg-transparent text-primary hover:bg-primary dark:hover:bg-primary hover:!text-white ",
+        "border border-primary bg-transparent text-primary hover:bg-primary dark:hover:bg-primary hover:text-white ",
       outlinewhite:
         "border border-white bg-transparent text-white hover:bg-white dark:hover:bg-white hover:text-dark ",
       transparent:

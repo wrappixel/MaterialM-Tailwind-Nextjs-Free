@@ -11,7 +11,7 @@ const Upgrade = () => {
           <div className="grid grid-cols-12">
             <div className="col-span-7">
               <h6 className="text-base text-dark">Upgrade to pro</h6>
-              <Button color={"primary"} className="mt-3" size={'sm'} as={Link} href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=33" target="_blank">
+              <Button color={"primary"} className="mt-3" size={'sm'} as={Link} href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376" target="_blank">
                 Buy Pro
               </Button>
             </div>
