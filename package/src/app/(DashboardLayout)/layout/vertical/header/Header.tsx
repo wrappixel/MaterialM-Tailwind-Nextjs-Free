@@ -58,6 +58,10 @@ const Header = () => {
             </div>
 
             <div className="flex gap-4 items-center">
+
+              <Button className="bg-transparent hover:bg-primary text-primary hover:text-white border border-primary hover:border-transparent hidden">Test Button1</Button>
+              <Button className="bg-primary hover:bg-transparent text-white hover:text-primary border border-transparent hover:border-primary hidden">Test Button2</Button>
+              <Button className="bg-primary hover:bg-primaryemphasis text-white hidden">Test Button3</Button>
               <Button as={Link} href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376" target="_blank" size={'sm'} color={"primary"}>
                 Check Pro Template 
               </Button>
