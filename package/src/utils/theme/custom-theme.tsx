@@ -23,7 +23,7 @@ const customTheme = {
       lightwarning:
         "bg-lightwarning dark:bg-darkwarning text-warning hover:bg-warning dark:hover:bg-warning hover:text-white",
       outlineprimary:
-        "border border-primary bg-transparent text-primary hover:bg-primary dark:hover:bg-primary hover:text-white ",
+        "border border-primary bg-transparent text-primary hover:bg-primary dark:hover:bg-primary hover:!text-white ",
       outlinewhite:
         "border border-white bg-transparent text-white hover:bg-white dark:hover:bg-white hover:text-dark ",
       transparent:

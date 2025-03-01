@@ -15,14 +15,15 @@
     "flowbite-react": "0.10.1",
     "lodash": "4.17.21",
     "moment": "2.29.4",
-    "next": "14.2.4",
-    "react": "18",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
     "react-apexcharts": "1.4.1",
-    "react-dom": "18",
-    "simplebar-react": "3.2.5",
-    "sharp": "0.32.6"
+    "react-dom": "^19.0.0",
+    "sharp": "0.32.6",
+    "simplebar-react": "3.2.5"
   },
   "devDependencies": {
+    "@types/next": "^9.0.0",
     "@types/node": "20",
     "@types/react": "18",
     "@types/react-dom": "18",

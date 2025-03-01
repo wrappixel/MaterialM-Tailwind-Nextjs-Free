@@ -17,7 +17,7 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ item }: any) => {
   const pathname = usePathname();
   const activeDD = item.children.find((t: { url: string; }) => t.url === pathname)
 
-  return (
+  return ( 
     <>
       <Sidebar.Collapse
         label={item.name} 
@@ -29,10 +29,14 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ item }: any) => {
             ? HiOutlineChevronDown
             : HiOutlineChevronDown;
           return (
-            <IconComponent
+            <div className="flex items-center" >
+              <IconComponent
               aria-hidden
-              className={`${twMerge(theme.label.icon.open[open ? "on" : "off"])} drop-icon`}
+              className={`${twMerge(theme.label.icon.open[open ? "on" : "off"])} drop-icon order-3 text-base`}
             />
+            {item.isPro? <span className="py-1 px-2.5 text-[10px] bg-secondary text-white rounded-full order-0">Pro</span> :null}
+            </div>
+      
           );
         }}
       >

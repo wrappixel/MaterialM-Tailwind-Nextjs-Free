@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`sticky top-0 z-[5] ${
+        className={`sticky top-[62px] z-[5] ${
           isSticky
             ? "bg-lightgray dark:bg-dark shadow-md fixed w-full"
             : "bg-transparent"
@@ -60,8 +60,8 @@ const Header = () => {
             </div>
 
             <div className="flex gap-4 items-center">
-              <Button as={Link} href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=33" target="_blank" size={'sm'} color={"primary"}>
-                Upgrade To Pro 
+              <Button as={Link} href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376" target="_blank" size={'sm'} color={"primary"}>
+                Check Pro Template 
               </Button>
               <Profile />
             </div>

@@ -6,7 +6,7 @@ import Image from "next/image";
 const Upgrade = () => {
   return (
     <>
-      <div className="px-4 mt-8 relative">
+      <div className="px-4 my-8 relative">
         <div className="bg-lightprimary py-4 px-5 rounded-lg ">
           <div className="grid grid-cols-12">
             <div className="col-span-7">

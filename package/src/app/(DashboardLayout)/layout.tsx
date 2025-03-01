@@ -2,6 +2,7 @@
 import React from "react";
 import Sidebar from "./layout/vertical/sidebar/Sidebar";
 import Header from "./layout/vertical/header/Header";
+import Topbar from "./layout/vertical/header/Topbar";
 
 export default function Layout({
   children,
@@ -9,6 +10,8 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
   return (
+    <>
+    <Topbar/>
     <div className="flex w-full min-h-screen">
       <div className="page-wrapper flex w-full">
         {/* Header/sidebar */}
@@ -24,5 +27,6 @@ export default function Layout({
         </div>
       </div>
     </div>
+    </>
   );
 }
