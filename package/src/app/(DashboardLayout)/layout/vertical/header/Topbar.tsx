@@ -66,7 +66,7 @@ const Topbar = () => {
               {
                 dropdownItems.map((item) => {
                     return (
-                        <Dropdown.Item key={item.id} className="flex items-center gap-1 text-sm py-2.5 px-4 group" as={Link} href={item.href} icon={() => <Icon icon="tabler:external-link" className="text-lg text-link group-hover:!text-primary" />}><span className="group-hover:text-primary" >{item.title}</span></Dropdown.Item>
+                        <Dropdown.Item key={item.id} className="flex items-center gap-1 text-sm py-2.5 px-4 group" as={Link} href={item.href} target='_blank' icon={() => <Icon icon="tabler:external-link" className="text-lg text-link group-hover:!text-primary" />}><span className="group-hover:text-primary" >{item.title}</span></Dropdown.Item>
                     )
                 })
               }
@@ -80,7 +80,7 @@ const Topbar = () => {
               {
                 dropdownItems.map((item) => {
                     return (
-                        <Dropdown.Item key={item.id} className="flex items-center gap-1 text-sm py-2.5 px-4 group" as={Link} href={item.href} icon={() => <Icon icon="tabler:external-link" className="text-lg text-link group-hover:text-primary" />}><span className="group-hover:text-primary" >{item.title}</span></Dropdown.Item>
+                        <Dropdown.Item key={item.id} className="flex items-center gap-1 text-sm py-2.5 px-4 group" as={Link} href={item.href} target='_blank' icon={() => <Icon icon="tabler:external-link" className="text-lg text-link group-hover:text-primary" />}><span className="group-hover:text-primary" >{item.title}</span></Dropdown.Item>
                     )
                 })
               }

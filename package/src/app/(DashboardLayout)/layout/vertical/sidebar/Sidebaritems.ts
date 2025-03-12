@@ -117,28 +117,28 @@ const SidebarContent: MenuItem[] = [
         name: "Typography",
         icon: "solar:text-circle-outline",
         id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/ui/typography",
+        url: "/ui/typography",
         isPro: false      
 },
       {
         name: "Table",
         icon: "solar:bedside-table-3-linear",
         id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/ui/table",
+        url: "/ui/table",
         isPro: false      
 },
       {
         name: "Form",
         icon: "solar:password-minimalistic-outline",
         id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/ui/form",
+        url: "/ui/form",
         isPro: false      
 },
       {
         name: "Shadow",
         icon: "solar:airbuds-case-charge-outline",
         id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/ui/shadow",
+        url: "/ui/shadow",
         isPro: false      
 },
     ],
