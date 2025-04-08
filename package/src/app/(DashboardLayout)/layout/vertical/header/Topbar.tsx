@@ -10,8 +10,8 @@ const Topbar = () => {
     const dropdownItems = [
         {
             id: 1,
-            title: "Bootstrap Preview",
-            href: "https://www.wrappixel.com/templates/materialm-admin-dashboard-template/?ref=376#demos"
+            title: "Nextjs Preview",
+            href: "https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376#demos"
         },
         {
             id: 2,
@@ -30,14 +30,14 @@ const Topbar = () => {
         },
         {
             id: 5,
-            title: "Nextjs Preview",
-            href: "https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376#demos"
+            title: "Bootstrap Preview",
+            href: "https://www.wrappixel.com/templates/materialm-admin-dashboard-template/?ref=376#demos"
         },
-
+        
         {
             id: 6,
-            title: "Buy Bootstrap Version",
-            href: "https://www.wrappixel.com/templates/materialm-admin-dashboard-template/?ref=376#package-card"
+            title: "Buy Nextjs Version",
+            href: "https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376#package-card"
         },
         {
             id: 7,
@@ -56,9 +56,10 @@ const Topbar = () => {
         },
         {
             id: 10,
-            title: "Buy Nextjs Version",
-            href: "https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376#package-card"
+            title: "Buy Bootstrap Version",
+            href: "https://www.wrappixel.com/templates/materialm-admin-dashboard-template/?ref=376#package-card"
         },
+        
 
     ]
   return (
