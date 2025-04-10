@@ -1,12 +1,12 @@
 
-# <a href="https://materialm-tailwind-nextjs-free.vercel.app/">MaterialM-Tailwind-Nextjs-Free</a>
-MaterialM Tailwind NextJS Dashboard 
+# <a href="https://materialm-tailwind-nextjs-free.vercel.app/">MaterialM Tailwind Nextjs Free Admin Template</a>
 
 <!-- Main image of Template -->
 <a target="_blank" href="https://www.wrappixel.com/templates/materialm-free-nextjs-admin-template/">
   <img src="https://www.wrappixel.com/wp-content/uploads/2024/08/MaterialM_Free_version.jpg" />
 </a>
 
+<p style="text-align:center;">MaterialM is a free admin dashboard template that uses Next.js and Tailwind CSS. It's built with Flowbite React, providing a collection of pre-built components and pages to help you set up your admin interface quickly.</p>
 
 # Compare with Premium Version 🌓
 
