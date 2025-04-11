@@ -156,7 +156,7 @@
 </p>
 
 <!-- Versions of Template -->
-# Versions
+# Versions of MaterialM Admin Template
 <table>
 <thead>
 <tr>
