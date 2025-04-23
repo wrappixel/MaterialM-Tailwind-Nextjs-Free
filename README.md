@@ -1,3 +1,4 @@
+
 <div align="center">
    <a href="https://www.wrappixel.com/" target="_blank">
       <img src="https://adminmart.github.io/template_api/images/brand-logo/WrapPixel-Logo.svg" alt="sneat-logo" width="100px" height="100px">
@@ -140,13 +141,11 @@ The **Free Version** of the **MaterialM Tailwind Next.js Admin Template** provid
 | **Pre-designed Pages**            | ✅ Basic Pages                         | ✅ Advanced Pages (more layouts & options)           |
 | **Widgets**                       | ✅ Basic Widgets                       | ✅ Advanced Widgets (e.g., weather, charts, maps)    |
 | **Themes**                        | ✅ Default Theme                | ✅ Multiple Themes, Custom Color Skins, and Dark Modes |
-| **Customization**                 | ✅ Limited Customization               | ✅ Full Customization (Complete theme and UI flexibility) |
 | **Support**                       | ✅ Community Support                   | ✅ Priority Support with Direct Contact             |
 | **Additional Components**         | ❌ Limited                             | ✅ Additional Components (Forms, Buttons, More UI Elements) |
 | **Advanced Data Visualization**   | ❌ Basic Charts                        | ✅ Advanced Data Visualizations (graphs, complex charts) |
 | **Multi-Language Support**        | ❌ Not available                       | ✅ Built-in support for multiple languages          |
 | **User Permissions & Roles**      | ❌ No                                  | ✅ User roles and permissions management            |
-| **Customizable Dashboards**       | ❌ Not available                       | ✅ Drag-and-drop customizable dashboards            |
 | **Real-time Notifications**       | ❌ Not available                       | ✅ Real-time notifications for alerts & updates      |
 | **Advanced Analytics & Reporting**| ❌ Basic reports                       | ✅ Advanced analytics with custom reports and filters|
 
@@ -270,7 +269,7 @@ Follow these simple steps to start contributing:
 - <p><a href="https://www.wrappixel.com/templates/category/vuetify-templates/?ref=376">Vuetify Templates</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/category/nextjs-templates/?ref=376">NextJs Templates</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/category/nuxt-templates/?ref=376">Nuxt Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/tailwind-dashboard/?ref=376">Tailwind Dashboards</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/category/tailwind-dashboard/?ref=376">Tailwind Templates</a> from Wrappixel</p>
 
 ---
 
