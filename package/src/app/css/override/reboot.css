@@ -52,3 +52,7 @@
   outline:none !important;
   border:none !important
 }
+
+.live-preview-drop button svg{
+  stroke: #fff;
+}
