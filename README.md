@@ -269,7 +269,7 @@ Follow these simple steps to start contributing:
 - <p><a href="https://www.wrappixel.com/templates/category/vuetify-templates/?ref=376">Vuetify Templates</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/category/nextjs-templates/?ref=376">NextJs Templates</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/category/nuxt-templates/?ref=376">Nuxt Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/tailwind-dashboard/?ref=376">Tailwind Templates</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/category/tailwind-dashboard/?ref=376">Tailwind Dashboards</a> from Wrappixel</p>
 
 ---
 
