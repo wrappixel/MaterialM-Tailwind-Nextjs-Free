@@ -51,17 +51,19 @@ const Topbar = () => {
         <div className="py-[15px] px-6 z-40 sticky top-0 bg-[linear-gradient(90deg,_#0f0533_0%,_#1b0a5c_100%)]">
             <div className="flex flex-col lg:flex-row gap-4 items-center justify-between">
                 <div className="md:flex hidden items-center gap-5">
-                    <Image src={wrappixel_logo} alt="data" width={147} />
+                    <Link href="https://www.wrappixel.com">
+                        <Image src={wrappixel_logo} alt="data" width={147} />
+                    </Link>
                     <div className="xl:flex items-center gap-4 pl-5 border-l border-opacity-20 border-white hidden">
-                        <Link href="https://www.wrappixel.com/templates/category/bootstrap-templates/" className="flex items-center gap-2 text-white bg-transparent hover:text-[#714bff]">
+                        <Link target="_black" href="https://www.wrappixel.com/templates/category/nextjs-templates/" className="flex items-center gap-2 text-white bg-transparent hover:text-[#714bff]">
                             <Icon icon="solar:window-frame-linear" width={20} />
                             <h4 className="text-base font-normal leading-none text-white hover:text-[#714bff]">Templates</h4>
                         </Link>
-                        <Link href="https://support.wrappixel.com/" className="flex items-center gap-2 text-white bg-transparent hover:text-[#714bff]">
+                        <Link target="_black" href="https://support.wrappixel.com/" className="flex items-center gap-2 text-white bg-transparent hover:text-[#714bff]">
                             <Icon icon="solar:question-circle-linear" width={20} />
                             <h4 className="text-base font-normal leading-none text-white hover:text-[#714bff]">Help</h4>
                         </Link>
-                        <Link href="https://www.wrappixel.com/hire-us/" className="flex items-center gap-2 text-white bg-transparent hover:text-[#714bff]">
+                        <Link target="_black" href="https://www.wrappixel.com/hire-us/" className="flex items-center gap-2 text-white bg-transparent hover:text-[#714bff]">
                             <Icon icon="solar:case-round-linear" width={20} />
                             <h4 className="text-base font-normal leading-none text-white hover:text-[#714bff]">Hire Us</h4>
                         </Link>
@@ -87,12 +89,12 @@ const Topbar = () => {
                                     }
                                 </Dropdown>
                             </div>
-                            <Link href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376" className="flex items-center px-4 py-[11px] rounded-sm gap-2 text-white bg-[#8d70f8] hover:bg-[#714bff]">
+                            <Link target="_black" href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376" className="flex items-center px-4 py-[11px] rounded-sm gap-2 text-white bg-[#8d70f8] hover:bg-[#714bff]">
                                 <Icon icon="solar:crown-linear" width={18} />
                                 <h4 className="text-base font-normal leading-none text-white">Get Pro</h4>
                             </Link>
                         </div>
-                        <Link href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376" className="flex items-center px-4 py-[11px] rounded-sm gap-2 text-black bg-[#b3f143] hover:bg-[#90de03]">
+                        <Link target="_black" href="https://www.wrappixel.com/all-access-pass/" className="flex items-center px-4 py-[11px] rounded-sm gap-2 text-black bg-[#b3f143] hover:bg-[#90de03]">
                             <Icon icon="solar:bolt-linear" width={18} />
                             <h4 className="text-base font-normal leading-none">All Access Pass</h4>
                         </Link>
