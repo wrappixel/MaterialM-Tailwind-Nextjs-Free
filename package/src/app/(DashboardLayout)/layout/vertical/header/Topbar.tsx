@@ -70,7 +70,7 @@ const Topbar = () => {
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row items-center gap-4 justify-center">
-                    <h4 className="text-sm font-normal text-white uppercase">Checkout Pro Version</h4>
+                    <h4 className="text-sm font-normal text-white uppercase font-semibold bg-[linear-gradient(90deg,_#FFFFFF_0%,_#8D70F8_100%)] [-webkit-background-clip:text] [background-clip:text] [-webkit-text-fill-color:transparent]">Checkout Pro Version</h4>
                     <div className="flex flex-col sm:flex-row items-center gap-[10px]">
                         <div className="flex items-center gap-[10px]">
                             <div className="live-preview-drop !rounded-sm border border-[#ffffff66] border-1 hover:bg-[#8d70f8]">
