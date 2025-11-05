@@ -33,7 +33,7 @@ const BCrumb = [
 const Page = () => {
   const [time, setTime] = useState("");
   const [copied, setCopied] = useState(false);
-  const [website, setWebsite] = useState("www.tailwind-admin.com");
+  const [website, setWebsite] = useState("https://material-m-nextjs-main.vercel.app/");
   const [switch1, setSwitch1] = useState(false);
   const [switch2, setSwitch2] = useState(true);
   const [switch3, setSwitch3] = useState(true);
@@ -245,7 +245,7 @@ const Page = () => {
 
               <div className="relative">
                 <Icon icon="solar:link-round-angle-linear" width={18} height={18} className="absolute left-3 top-1/2 -translate-y-1/2" />
-                <Input type="text" placeholder="www.tailwind-admin.com" className="pl-10" />
+                <Input type="text" placeholder="https://material-m-nextjs-main.vercel.app/" className="pl-10" />
               </div>
 
               {/* Copy input */}
