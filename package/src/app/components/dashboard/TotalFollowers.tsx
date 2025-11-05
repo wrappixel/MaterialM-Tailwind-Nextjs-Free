@@ -1,10 +1,9 @@
 "use client";
-import React from "react";
 import dynamic from "next/dynamic";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 import { Icon } from "@iconify/react";
-import { Dropdown } from "flowbite-react";
-import { HiOutlineDotsVertical  } from "react-icons/hi";
+import { HiOutlineDotsVertical } from "react-icons/hi";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
 const TotalFollowers = () => {
   const Action = [
@@ -68,7 +67,7 @@ const TotalFollowers = () => {
     },
     colors: [
       "var(--color-error)",
-      "var(--color-black, rgba(17, 28, 45, 0.10))",
+      "var(--color-graymuted)",
     ],
     plotOptions: {
       bar: {
@@ -107,7 +106,7 @@ const TotalFollowers = () => {
   };
   return (
     <>
-      <div className="bg-lighterror rounded-lg p-6 relative w-full break-words">
+      <div className="bg-lighterror rounded-3xl p-6 relative w-full break-words">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <span className="w-14 h-10 rounded-full flex items-center justify-center  bg-error text-white">
@@ -116,22 +115,22 @@ const TotalFollowers = () => {
             <h5 className="text-base opacity-70">Total followers</h5>
           </div>
           <div>
-            <Dropdown
-              label=""
-              dismissOnClick={false}
-              renderTrigger={() => (
-                <span className="h-9 w-9 flex justify-center items-center rounded-full  cursor-pointer">
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <span className="h-9 w-9 flex justify-center items-center rounded-full cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-800">
                   <HiOutlineDotsVertical size={22} />
                 </span>
-              )}
-            >
-              {Action.map((items, index) => (
-                <Dropdown.Item key={index} className="flex gap-3">
-                  <Icon icon={`${items.icon}`} height={18} />
-                  <span>{items.listtitle}</span>
-                </Dropdown.Item>
-              ))}
-            </Dropdown>
+              </DropdownMenuTrigger>
+
+              <DropdownMenuContent align="end" className="w-40">
+                {Action.map((items, index) => (
+                  <DropdownMenuItem key={index} className="flex items-center gap-3 cursor-pointer">
+                    <Icon icon={items.icon} height={18} />
+                    <span>{items.listtitle}</span>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
         </div>
 

@@ -1,14 +1,14 @@
-import React from "react";
+import CardBox from "@/app/components/shared/CardBox"
 
-const samplepage = () => {
-  return (
-    <>
-      <div className="rounded-lg dark:shadow-dark-md shadow-md bg-white dark:bg-darkgray p-6 relative w-full break-words">
-        <h5 className="card-title mb-3">Icons</h5>
-        <p className="card-subtitle">This is a sample page</p>
-      </div>
-    </>
-  );
-};
+const page = () => {
+    return (
+        <>
+         <CardBox className="bg-background">
+            <h5 className="text-base">Sample Page</h5>
+            <p className="text-sm mt-6" >This is a sample page</p>
+         </CardBox>
+        </>
+    )
+}
 
-export default samplepage;
+export default page

@@ -1,7 +1,6 @@
 "use client";
-import React from "react";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import dynamic from "next/dynamic";
-import { Select } from "flowbite-react";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 const SalesProfit = () => {
   // chart
@@ -117,14 +116,19 @@ const SalesProfit = () => {
   };
 
   return (
-    <div className="rounded-lg dark:shadow-dark-md shadow-md bg-white dark:bg-darkgray p-6 relative w-full break-words">
+    <div className="rounded-3xl dark:shadow-dark-md shadow-md bg-background p-6 relative w-full break-words">
       <div className="flex justify-between items-center">
         <h5 className="card-title">Sales Profit</h5>
-        <Select id="countries" className="select-md" required>
-          <option >This Week</option>
-          <option>April 2024</option>
-          <option>May 2024</option>
-          <option>June 2024</option>
+        <Select defaultValue="this-week">
+          <SelectTrigger className="w-[140px]">
+            <SelectValue placeholder="Select period" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="this-week">This Week</SelectItem>
+            <SelectItem value="april-2024">April 2024</SelectItem>
+            <SelectItem value="may-2024">May 2024</SelectItem>
+            <SelectItem value="june-2024">June 2024</SelectItem>
+          </SelectContent>
         </Select>
       </div>
 

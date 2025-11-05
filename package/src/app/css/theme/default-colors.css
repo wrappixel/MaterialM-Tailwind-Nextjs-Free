@@ -1,27 +1,126 @@
+:root {
+  --color-info: #46caeb;
+  --color-success: #00ceb6;
+  --color-warning: #FFB900;
+  --color-error: #FF6692;  
+  --color-darkinfo: #223662;
+  --color-white: #fff;
+  --color-dark: #111c2d;
+  --color-border: #e0e6eb;
+  --color-darkborder: #333f55;
+  --color-link: #2a3547;
+  --color-muted: #EFF4FA;
+  --color-darkmuted: #2a3851;
+  --color-darklink: #7b8893;
+  --color-lightgray: #F8FAFD;
+  --color-darkgray: #1a2537;
+  --color-bodytext: #EFF4FAbf;
+  --color-primary: #00A1FF;
+  --color-secondary: #16CDC7;
+  --color-input: #e5e7eb;
+  --color-graymuted: #DECFDA;
+  /* --color-error-emphasis: #d5745b; */
+  /* --color-warning-emphasis: #d9941a; */
+  /* --color-success-emphasis: #10bd9d; */
+  /* --color-primary-emphasis: #4f73d9; */
+  /* --color-secondary-emphasis: #3ea2d9; */
+  /* --color-lightprimary: #00A1FF20; */
+  /* --color-lightsecondary: #16CDC720; */
+  /* --color-lightsuccess: #00ceb620; */
+  /* --color-lighterror: #fa896b20; */
+  /* --color-lightinfo: #46caeb1a; */
+  /* --color-lightwarning: #ffae1f20; */
 
-:root{
-    --color-primary: #00A1FF;
-    --color-secondary: #16CDC7;
-    --color-primary-emphasis:#0091E5;   
-    --color-secondary-emphasis:#11a5a0;
-    --color-lightprimary:#00A1FF20;
-    --color-lightsecondary:#16CDC720; 
-    --color-info:#46caeb;
-    --color-success:#00ceb6;
-    --color-warning:#FFB900;
-    --color-error:#FF6692;
-    --color-lightsuccess:#00ceb625;
-    --color-lighterror:#FF669230;
-    --color-lightinfo:#46caeb25;
-    --color-lightwarning:#FFB90025;
-    --color-white:#fff ;
-    --color-dark:#111c2d;
-    --color-border:#e0e6eb;
-    --color-bordergray:#cfd6db;
-    --color-link:#2a3547;
-    --color-muted:#EFF4FA;
-    --color-darklink:#7b8893;
-    --color-lightgray:#F8FAFD;
+  /* Light Variants */
+  --color-lightprimary: color-mix(
+    in oklab,
+    var(--color-primary) 12%,
+    transparent
+  );
+  --color-lightsecondary: color-mix(
+    in oklab,
+    var(--color-secondary) 12%,
+    transparent
+  );
+  --color-lightsuccess: color-mix(
+    in oklab,
+    var(--color-success) 12%,
+    transparent
+  );  
+  --color-lightwarning: color-mix(
+    in oklab,
+    var(--color-warning) 12%,
+    transparent
+  );
+  --color-lighterror: color-mix(in oklab, var(--color-error) 12%, transparent);
+  --color-lightinfo: color-mix(in oklab, var(--color-info) 12%, transparent);
+
+  /* Emphasis Variants */
+  --color-primary-emphasis: color-mix(
+    in oklab,
+    var(--color-primary) 80%,
+    black
+  );
+  --color-secondary-emphasis: color-mix(
+    in oklab,
+    var(--color-secondary) 80%,
+    black
+  );
+  --color-success-emphasis: color-mix(
+    in oklab,
+    var(--color-success) 80%,
+    black
+  );
+  --color-warning-emphasis: color-mix(
+    in oklab,
+    var(--color-warning) 80%,
+    black
+  );
+  --color-error-emphasis: color-mix(in oklab, var(--color-error) 80%, black);
+  --color-info-emphasis: color-mix(in oklab, var(--color-info) 80%, black);
+
+  /* common var for dark&light */
+  --color-charcoal: #2a3547;
+  --color-customdark: #111c2d;
+  --color-defaultBorder: #e0e6eb;
+  --color-slateGray: #EFF4FAbf;
+  --color-breadcrumbColor: #16CDC720;
+
+  --shadow-md: 0px 1px 4px 0px rgba(133, 146, 173, 0.2);
+
+  /* shadCN Compnent */
+
+  --radius: 10px;
+  --background: #ffff;
+  --foreground: var(--color-link);
+  --card: var(--color-white);
+  --card-foreground: var(--color-link);
+  --popover: var(--color-white);
+  --popover-foreground: var(--color-link);
+  --primary: var(--color-primary);
+  --primary-foreground: var(--color-white);
+  --secondary: var(--color-secondary);
+  --secondary-foreground: var(--color-white);
+  --muted: #f5f5f5;
+  --muted-foreground: #737373;
+  --accent: var(--color-lightprimary);
+  --accent-foreground: var(--color-primary);
+  --destructive: var(--color-error);
+  --destructive-foreground: var(--color-white);
+  --border: #e5e5e5;
+  --input: var(--color-input);
+  --ring: var(--color-lightprimary);
+  --chart-1: var(--color-primary);
+  --chart-2: var(--color-secondary);
+  --chart-3: var(--color-success);
+  --chart-4: var(--color-warning);
+  --chart-5: var(--color-error);
+  --sidebar: var(--color-white);
+  --sidebar-foreground: var(--color-link);
+  --sidebar-primary: var(--color-primary);
+  --sidebar-primary-foreground: var(--color-white);
+  --sidebar-accent: var(--color-lightprimary);
+  --sidebar-accent-foreground: var(--color-primary);
+  --sidebar-border: #e5e5e5;
+  --sidebar-ring: #a1a1a1;
 }
-
-
