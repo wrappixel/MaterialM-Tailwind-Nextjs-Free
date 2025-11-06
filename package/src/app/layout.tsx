@@ -2,9 +2,7 @@ import React from 'react'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './css/globals.css'
-import { ShadcnThemeProvider } from '@/components/theme-provider'
-import { ThemeProvider } from 'flowbite-react'
-import customTheme from '@/utils/theme/custom-theme'
+import { ThemeProvider } from '@/components/theme-provider'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,13 +23,13 @@ export default function RootLayout({
         {/* {typeof window !== 'undefined' && <ThemeModeScript />} */}
       </head>
       <body className={`${inter.className}`}>
-        <ShadcnThemeProvider
+        <ThemeProvider
           attribute='class'
           defaultTheme='system'
           enableSystem
           disableTransitionOnChange>
-          <ThemeProvider theme={customTheme}>{children}</ThemeProvider>
-        </ShadcnThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   )

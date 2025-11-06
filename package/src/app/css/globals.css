@@ -9,9 +9,6 @@
 @import './override/reboot.css' layer(utilities);
 @import "tw-animate-css";
 
-@plugin 'flowbite-react/plugin/tailwindcss';
-@source '../../../node_modules/flowbite-react/dist/esm/**/*.mjs';
-@source '../../../.flowbite-react/class-list.json';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -134,7 +131,7 @@ main {
 
 @layer components {
   .container {
-    @apply !max-w-[1200px];
+    @apply !max-w-[1400px];
   }
 
   body {
@@ -235,7 +232,3 @@ input[type="time"] {
   -moz-appearance: textfield;
 }
 
-[data-testid="flowbite-drawer"] {
-  will-change: transform;
-  -webkit-transform: translate3d(0, 0, 0);
-}

@@ -36,8 +36,6 @@
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.6.0",
-    "flowbite": "^3.1.2",
-    "flowbite-react": "^0.12.7",
     "input-otp": "^1.4.2",
     "lodash": "^4.17.21",
     "lucide-react": "^0.540.0",

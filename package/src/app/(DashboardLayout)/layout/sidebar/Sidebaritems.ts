@@ -116,6 +116,35 @@ const SidebarContent: MenuItem[] = [
     ],
   },
   {
+    heading: 'AI',
+    children: [
+      {
+        name: 'Ai Table Builder',
+        icon: 'solar:server-linear',
+        id: uniqueId(),
+        url: 'https://tailwindbuilder.ai/table-builder',
+        isPro: false,
+
+      },
+      {
+        name: 'Ai Form Builder',
+        icon: 'solar:document-add-linear',
+        id: uniqueId(),
+        url: 'https://tailwindbuilder.ai/form-builder',
+        isPro: false,
+
+      },
+      {
+        id: uniqueId(),
+        name: 'Ai Chart Builder',
+        icon: 'solar:pie-chart-2-linear',
+        url: 'https://tailwindbuilder.ai/chart-builder',
+        isPro: false,
+
+      },
+    ],
+  },
+  {
     heading: 'Utilities',
     children: [
       {
@@ -266,7 +295,7 @@ const SidebarContent: MenuItem[] = [
           },
         ],
       },
-      
+
       {
         name: 'Invoice',
         id: uniqueId(),
@@ -329,7 +358,7 @@ const SidebarContent: MenuItem[] = [
       },
     ],
   },
-  
+
   {
     heading: 'Pro Pages',
     children: [
@@ -371,7 +400,7 @@ const SidebarContent: MenuItem[] = [
     ],
   },
 
-  
+
   {
     isPro: true,
     heading: "Widgets",
@@ -761,93 +790,93 @@ const SidebarContent: MenuItem[] = [
         name: "React Tables",
         id: uniqueId(),
         icon: "solar:round-transfer-vertical-broken",
-        children:[
-      {
-        id: uniqueId(),
-        name: "Basic",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/basic",
-        isPro: true
+        children: [
+          {
+            id: uniqueId(),
+            name: "Basic",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/basic",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Dense",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/dense",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Sorting",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/sorting",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Filtering",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/filtering",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Pagination",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/pagination",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Row Selection",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/row-selection",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Column Visibility",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/columnvisibility",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Editable",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/editable",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Sticky",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/sticky",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Drag & Drop",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/drag-drop",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Empty",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/empty",
+            isPro: true
+          },
+          {
+            id: uniqueId(),
+            name: "Expanding",
+            icon: 'solar:round-transfer-vertical-broken',
+            url: "https://material-m-nextjs-main.vercel.app/react-tables/expanding",
+            isPro: true
+          },
+        ]
       },
-      {
-        id: uniqueId(),
-        name: "Dense",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/dense",
-        isPro: true
-      },
-      {
-        id: uniqueId(),
-        name: "Sorting",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/sorting",
-        isPro: true
-      },
-      {
-        id: uniqueId(),
-        name: "Filtering",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/filtering",
-        isPro: true
-      },
-      {
-        id: uniqueId(),
-        name: "Pagination",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/pagination",
-        isPro: true
-      },
-      {
-        id: uniqueId(),
-        name: "Row Selection",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/row-selection",
-        isPro: true
-      },
-      {
-        id: uniqueId(),
-        name: "Column Visibility",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/columnvisibility",
-        isPro: true
-      },
-      {
-        id: uniqueId(),
-        name: "Editable",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/editable",
-        isPro: true
-      },
-      {
-        id: uniqueId(),
-        name: "Sticky",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/sticky",
-        isPro: true
-      },
-      {
-        id: uniqueId(),
-        name: "Drag & Drop",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/drag-drop",
-        isPro: true
-      },
-      {
-        id: uniqueId(),
-        name: "Empty",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/empty",
-        isPro: true
-      },
-      {
-        id: uniqueId(),
-        name: "Expanding",
-        icon: 'solar:round-transfer-vertical-broken',
-        url: "https://material-m-nextjs-main.vercel.app/react-tables/expanding",
-        isPro: true
-      },
-    ]
-  },
     ],
   },
 
@@ -978,79 +1007,79 @@ const SidebarContent: MenuItem[] = [
         name: "Auth Pages",
         id: uniqueId(),
         icon: "solar:user-plus-rounded-line-duotone",
-        children:[
-      {
-        name: "Error",
-        icon: "solar:bug-minimalistic-line-duotone",
-        id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/auth/error",
-        isPro: true
+        children: [
+          {
+            name: "Error",
+            icon: "solar:bug-minimalistic-line-duotone",
+            id: uniqueId(),
+            url: "https://material-m-nextjs-main.vercel.app/auth/error",
+            isPro: true
+          },
+          {
+            name: "Side Login",
+            icon: "solar:login-3-line-duotone",
+            id: uniqueId(),
+            url: "https://material-m-nextjs-main.vercel.app/auth/auth1/login",
+            isPro: true
+          },
+          {
+            name: "Boxed Login",
+            icon: "solar:login-3-line-duotone",
+            id: uniqueId(),
+            url: "https://material-m-nextjs-main.vercel.app/auth/auth2/login",
+            isPro: true
+          },
+          {
+            name: "Side Register",
+            icon: "solar:user-plus-rounded-line-duotone",
+            id: uniqueId(),
+            url: "https://material-m-nextjs-main.vercel.app/auth/auth1/register",
+            isPro: true
+          },
+          {
+            name: "Boxed Register",
+            icon: "solar:user-plus-rounded-line-duotone",
+            id: uniqueId(),
+            url: "https://material-m-nextjs-main.vercel.app/auth/auth2/register",
+            isPro: true
+          },
+          {
+            name: "Side Forgot Pwd",
+            icon: "solar:password-outline",
+            id: uniqueId(),
+            url: "https://material-m-nextjs-main.vercel.app/auth/auth1/forgot-password",
+            isPro: true
+          },
+          {
+            name: "Boxed Forgot Pwd",
+            icon: "solar:password-outline",
+            id: uniqueId(),
+            url: "https://material-m-nextjs-main.vercel.app/auth/auth2/forgot-password",
+            isPro: true
+          },
+          {
+            name: "Side Two Steps",
+            icon: "solar:password-outline",
+            id: uniqueId(),
+            url: "https://material-m-nextjs-main.vercel.app/auth/auth1/two-steps",
+            isPro: true
+          },
+          {
+            name: "Boxed Two Steps",
+            icon: "solar:password-outline",
+            id: uniqueId(),
+            url: "https://material-m-nextjs-main.vercel.app/auth/auth2/two-steps",
+            isPro: true
+          },
+          {
+            name: "Maintenance",
+            icon: "solar:settings-outline",
+            id: uniqueId(),
+            url: "https://material-m-nextjs-main.vercel.app/auth/maintenance",
+            isPro: true
+          },
+        ]
       },
-      {
-        name: "Side Login",
-        icon: "solar:login-3-line-duotone",
-        id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/auth/auth1/login",
-        isPro: true
-      },
-      {
-        name: "Boxed Login",
-        icon: "solar:login-3-line-duotone",
-        id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/auth/auth2/login",
-        isPro: true
-      },
-      {
-        name: "Side Register",
-        icon: "solar:user-plus-rounded-line-duotone",
-        id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/auth/auth1/register",
-        isPro: true
-      },
-      {
-        name: "Boxed Register",
-        icon: "solar:user-plus-rounded-line-duotone",
-        id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/auth/auth2/register",
-        isPro: true
-      },
-      {
-        name: "Side Forgot Pwd",
-        icon: "solar:password-outline",
-        id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/auth/auth1/forgot-password",
-        isPro: true
-      },
-      {
-        name: "Boxed Forgot Pwd",
-        icon: "solar:password-outline",
-        id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/auth/auth2/forgot-password",
-        isPro: true
-      },
-      {
-        name: "Side Two Steps",
-        icon: "solar:password-outline",
-        id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/auth/auth1/two-steps",
-        isPro: true
-      },
-      {
-        name: "Boxed Two Steps",
-        icon: "solar:password-outline",
-        id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/auth/auth2/two-steps",
-        isPro: true
-      },
-      {
-        name: "Maintenance",
-        icon: "solar:settings-outline",
-        id: uniqueId(),
-        url: "https://material-m-nextjs-main.vercel.app/auth/maintenance",
-        isPro: true
-      },
-    ]
-  },
     ],
   },
   {
