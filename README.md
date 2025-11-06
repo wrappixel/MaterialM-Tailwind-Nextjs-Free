@@ -8,7 +8,7 @@
 
 <h1 align="center">
    <a href="https://www.wrappixel.com/templates/materialm-free-nextjs-admin-template/?ref=376" target="_blank" align="center">
-      MaterialM Free Tailwind Next.js Admin Template
+      MaterialM Free Tailwind Next.js 16 Admin Template with ShadCN
    </a>
 </h1>
 
@@ -36,7 +36,7 @@ Designed with developers in mind, MaterialM comes packed with pre-built componen
 - **Customizable Components**  
   Built with reusable, utility-first components using Tailwind CSS — tweak styles with ease.
 
-- **Flowbite Integration**  
+- **ShadCN Integration**  
 A rich library of **prebuilt UI components**—like modals, dropdowns, navbars, and tabs—designed specifically for **Tailwind CSS**, helping developers build faster with consistent and responsive designs.
 
 - **Pre-designed Pages**  
@@ -57,7 +57,7 @@ A rich library of **prebuilt UI components**—like modals, dropdowns, navbars, 
 |-----------------------|---------------------------------------------------------------------------------|
 | **Tailwind CSS**        | A utility-first CSS framework that enables developers to build custom designs quickly by applying classes directly in HTML. |
 | **Apex Charts**             | A powerful charting library for creating interactive and visually appealing charts, perfect for dashboards and data visualizations. |
-| **Flowbite**           | A library of UI components built on top of Tailwind CSS that provides ready-to-use elements like modals, dropdowns, and more. |
+| **ShadCN**           | A library of UI components built on top of Tailwind CSS that provides ready-to-use elements like modals, dropdowns, and more. |
 | **Tabler Icons**       | These icons are simple, lightweight, and easy to integrate, making them perfect for building clean and visually appealing user interfaces. |
 | **Webpack**            | A static module bundler for modern JavaScript applications, handling assets like JavaScript, CSS, and images. |
 
