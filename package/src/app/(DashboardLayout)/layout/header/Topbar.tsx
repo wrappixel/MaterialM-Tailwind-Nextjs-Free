@@ -17,37 +17,37 @@ const Topbar = () => {
       id: 1,
       img: "/images/svgs/next-cat-icon.svg",
       title: "Nextjs Version",
-      href: "https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376#demos",
+      href: "https://wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376#demos",
     },
     {
       id: 2,
       img: "/images/svgs/angular-cat-icon.svg",
       title: "Angular Version",
-      href: "https://www.wrappixel.com/templates/materialm-material-angular-dashboard-template/?ref=376#demos",
+      href: "https://wrappixel.com/templates/materialm-material-angular-dashboard-template/?ref=376#demos",
     },
     {
       id: 3,
       img: "/images/svgs/vue-cat-icon.svg",
       title: "Vuejs Version",
-      href: "https://www.wrappixel.com/templates/materialm-vuejs-vuetify-admin-template/?ref=376#demos",
+      href: "https://wrappixel.com/templates/materialm-vuejs-vuetify-admin-template/?ref=376#demos",
     },
     {
       id: 4,
       img: "/images/svgs/nuxt-cat-icon.svg",
       title: "Nuxtjs Version",
-      href: "https://www.wrappixel.com/templates/materialm-vuetify-nuxt-js-admin-template/?ref=376#demos",
+      href: "https://wrappixel.com/templates/materialm-vuetify-nuxt-js-admin-template/?ref=376#demos",
     },
     {
       id: 5,
       img: "/images/svgs/react-cat-icon.svg",
       title: "React Version",
-      href: "https://www.wrappixel.com/templates/materialm-tailwind-react-admin-template/?ref=376#demos",
+      href: "https://wrappixel.com/templates/materialm-tailwind-react-admin-template/?ref=376#demos",
     },
     {
       id: 6,
       img: "/images/svgs/bt-cat-icon.svg",
       title: "Bootstrap Version",
-      href: "https://www.wrappixel.com/templates/materialm-admin-dashboard-template/?ref=376#demos",
+      href: "https://wrappixel.com/templates/materialm-admin-dashboard-template/?ref=376#demos",
     },
   ];
 
@@ -56,7 +56,7 @@ const Topbar = () => {
       <div className="flex flex-col lg:flex-row gap-4 items-center justify-between">
         {/* Left Section */}
         <div className="md:flex hidden items-center gap-5">
-          <Link href="https://www.wrappixel.com">
+          <Link href="https://wrappixel.com">
             <Image
               src="/images/logos/logo-wrappixel.svg"
               alt="data"
@@ -68,7 +68,7 @@ const Topbar = () => {
           <div className="xl:flex items-center gap-4 pl-5 border-l border-opacity-20 border-white hidden">
             <Link
               target="_blank"
-              href="https://www.wrappixel.com/templates/category/nextjs-templates/"
+              href="https://wrappixel.com/templates/category/nextjs-templates/"
               className="flex items-center gap-2 text-white hover:text-[#714bff]"
             >
               <Icon icon="solar:window-frame-linear" width={20} />
@@ -84,7 +84,7 @@ const Topbar = () => {
             </Link>
             <Link
               target="_blank"
-              href="https://www.wrappixel.com/hire-us/"
+              href="https://wrappixel.com/hire-us/"
               className="flex items-center gap-2 text-white hover:text-[#714bff]"
             >
               <Icon icon="solar:case-round-linear" width={20} />
@@ -135,7 +135,7 @@ const Topbar = () => {
 
               <Link
                 target="_blank"
-                href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376"
+                href="https://wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376"
                 className="flex items-center px-4 py-[11px] rounded-sm gap-2 text-white bg-[#8d70f8] hover:bg-[#714bff]"
               >
                 <Icon icon="solar:crown-linear" width={18} />
@@ -145,7 +145,7 @@ const Topbar = () => {
 
             <Link
               target="_blank"
-              href="https://www.wrappixel.com/all-access-pass/"
+              href="https://wrappixel.com/all-access-pass/"
               className="flex items-center px-4 py-[11px] rounded-sm gap-2 text-black bg-[#b3f143] hover:bg-[#90de03]"
             >
               <Icon icon="solar:bolt-linear" width={18} />
